@@ -1,0 +1,5 @@
+requirements:
+  file: requirements.txt
+build:
+  commands:
+    - python -m playwright install --with-deps chromium
